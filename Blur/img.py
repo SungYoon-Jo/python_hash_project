@@ -15,7 +15,8 @@ def onChange(x):
 
 # ---② 합성 영상 읽기
 img1 = cv2.imread('./img/1.jpg')
-img2 = cv2.imread('./img/2.jpg')
+# img2 = cv2.imread('./img/2.jpg')
+img2 = cv2.imread('./img/temp.png')
 
 res1 = resize(img1, (640,640))
 res2 = resize(img2, (640,640))
