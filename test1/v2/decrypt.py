@@ -1,6 +1,6 @@
 from steganocryptopy.steganography import Steganography
 
-decrypted_text = Steganography.decrypt("key", "../encrypt/secret.png")
+decrypted_text = Steganography.decrypt("../key/key", "../encrypt/secret.png")
 
 print(decrypted_text)
 
